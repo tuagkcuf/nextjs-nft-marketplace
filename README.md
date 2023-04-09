@@ -1,14 +1,14 @@
 # NextJS NFT Marketplace with TheGraph
 
-*This repo has been updated for Sepolia over Goerli.*
+![screenshot](./public/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG)
 
 ## 1. Git clone the contracts repo
 
 In it's own terminal / command line, run: 
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
-cd hardhat-nextjs-nft-marketplace-fcc
+git clone https://github.com/tuagkcuf/nextjs-nft-marketplace.git
+cd hardhat-nextjs-nft-marketplace
 yarn
 ```
 
@@ -24,12 +24,10 @@ yarn hardhat deploy --network sepolia
 
 ```
 cd ..
-git clone https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc
-cd graph-nft-marketplace-fcc
+git clone https://github.com/tuagkcuf/nextjs-nft-marketplace.git
+cd graph-nft-marketplace
 yarn
 ```
-
-Follow the instructions of the [README](https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc/blob/main/README.md) of that repo. 
 
 Then, make a `.env` file and place your temporary query URL into it as `NEXT_PUBLIC_SUBGRAPH_URL`.
 
